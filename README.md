@@ -2,6 +2,10 @@
 
 Data: 2026-01-27
 
+## Architecture
+<img width="907" height="722" alt="image" src="https://github.com/user-attachments/assets/2a8d4a4c-b601-49a4-bc81-6b4377213a78" />
+
+
 Este documento complementa os READMEs individuais e mostra:
 
 1. Como subir **infra** e **cada serviço** (um por vez) usando Docker.
