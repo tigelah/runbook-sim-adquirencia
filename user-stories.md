@@ -71,7 +71,7 @@ Merchant envia número de parcelas
 
 Emissor valida plano
 
-- Story: Validar juros aplicáveis
+- ### Story02: Validar juros aplicáveis
 
 Juros configuráveis por merchant/produto
 
@@ -79,7 +79,7 @@ Juros configuráveis por merchant/produto
 
 Retornar breakdown da compra parcelada
 
-- ### Story02: Persistir plano parcelado no ledger
+- ### Story03: Persistir plano parcelado no ledger
 
 Registrar principal + juros separadamente
 
