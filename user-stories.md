@@ -59,13 +59,13 @@
 - Captura → consumo real
 
 
-#EPIC: PAG-02 — Parcelamento
+# EPIC: PAG-02 — Parcelamento
 
-##Objetivo: Permitir compras parceladas com cálculo de juros.
+## Objetivo: Permitir compras parceladas com cálculo de juros.
 
 --- 
 
-- Story: Suportar parcelamento 2x, 6x, 12x
+- ### Story01: Suportar parcelamento 2x, 6x, 12x
 
 Merchant envia número de parcelas
 
@@ -79,7 +79,7 @@ Juros configuráveis por merchant/produto
 
 Retornar breakdown da compra parcelada
 
-- Story: Persistir plano parcelado no ledger
+- ### Story02: Persistir plano parcelado no ledger
 
 Registrar principal + juros separadamente
 
@@ -88,14 +88,14 @@ Registrar principal + juros separadamente
 ## Objetivo: Reservar saldo antes da captura.
 --- 
 
-- Story: Criar autorização sem captura imediata
+- ### Story01 : Criar autorização sem captura imediata
 
 Gerar evento PaymentAuthorized
 
-- Story: Implementar expiração automática de reserva
+- ### Story02: Implementar expiração automática de reserva
 
 Timeout configurável (ex: 7 dias)
 
-- Story: Cancelar autorização antes da captura
+- ### Story03: Cancelar autorização antes da captura
 
 Evento AuthorizationVoided
